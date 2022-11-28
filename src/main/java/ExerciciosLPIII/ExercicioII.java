@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class ExercicioII {
     public static void main(String[] args) {
-        // Exercício I proposto no treinamento de Lógica de Progamação III com Java pela Capgemini.
+
+        // Exercício II proposto no treinamento de Lógica de Progamação III com Java pela Capgemini.
 
         Scanner scanner = new Scanner(System.in);
         double numeroA = 0;
@@ -22,5 +23,6 @@ public class ExercicioII {
         System.out.println("A subtração resultante entre o número A e B é: " + (numeroA - numeroB));
         System.out.println("A multiplicação resultante entre o número A e B é: " + (numeroA * numeroB));
         System.out.println("A divisão resultante entre o número A e B é: " + (numeroA / numeroB));
+
     }
 }
