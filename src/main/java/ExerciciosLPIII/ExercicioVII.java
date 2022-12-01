@@ -2,8 +2,10 @@ package ExerciciosLPIII;
 
 import java.util.Scanner;
 
-public class ExerciciosVII {
+public class ExercicioVII {
     public static void main(String[] args) {
+
+        // Exercício VII proposto no treinamento de Lógica de Programação III com Java pela Capgemini.
 
         Scanner scanner = new Scanner(System.in);
 

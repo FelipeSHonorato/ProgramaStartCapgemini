@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ExercicioV {
     public static void main(String[] args) {
 
-        // Exercício V proposto no treinamento de Lógica de Progamação III com Java pela Capgemini.
+        // Exercício V proposto no treinamento de Lógica de Programação III com Java pela Capgemini.
 
         Scanner scanner = new Scanner(System.in);
 
