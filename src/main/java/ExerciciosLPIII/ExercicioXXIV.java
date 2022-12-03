@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ExercicioXXIV {
 
-    // ExercícioXXIV proposto no treinamento de Lógica de Progamação III com Java pela Capgemini.
+    // Exercício XXIV proposto no treinamento de Lógica de Progamação III com Java pela Capgemini.
 
     public static void main(String[] args) {
 
