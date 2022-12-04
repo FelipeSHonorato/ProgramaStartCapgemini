@@ -18,11 +18,9 @@ public class ExercicioIV {
         BigDecimal valorTotalComComissao;
 
         System.out.print("Digite o nome do vendedor: ");
-
         nomeVendedor = scanner.nextLine();
 
         System.out.print("Digite o salário fixo do vendedor: R$");
-
         salarioFixo = scanner.nextBigDecimal();
 
         System.out.print("Digite o valor total de vendas em dinheiro do vendedor: R$");

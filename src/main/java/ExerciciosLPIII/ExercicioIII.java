@@ -8,6 +8,7 @@ public class ExercicioIII {
         // Exercício III proposto no treinamento de Lógica de Programação III com Java pela Capgemini.
 
         Scanner scanner = new Scanner(System.in);
+
         double qtdCombustivelAbastecido = 0;
         double distanciaPercorrida = 0;
         double consumoGasto = 0;
@@ -22,7 +23,8 @@ public class ExercicioIII {
 
         consumoGasto = qtdCombustivelAbastecido / distanciaPercorrida;
 
-        System.out.println("O automóvel consumiu: " + qtdCombustivelAbastecido + " litros em uma distância de " + distanciaPercorrida);
+        System.out.println("O automóvel consumiu: " + qtdCombustivelAbastecido + " litros em uma distância de "
+                + distanciaPercorrida);
 
         System.out.println("O carro tem um consumo médio de " + consumoGasto + " litros por km");
     }
