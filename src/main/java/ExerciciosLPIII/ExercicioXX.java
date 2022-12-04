@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class ExercicioXX {
     public static void main(String[] args) {
 
+        // Exercício XX proposto no treinamento de Lógica de Programação III com Java pela Capgemini.
+
         Scanner scanner = new Scanner(System.in);
 
         float valorCarro = 0.0f;
