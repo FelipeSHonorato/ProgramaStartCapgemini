@@ -7,6 +7,8 @@ public class ExercicioXXVII {
 
     public static void main(String[] args) {
 
+        // Exercício XXVII proposto no treinamento de Lógica de Progamação III com Java pela Capgemini.
+
         Scanner scanner = new Scanner(System.in);
 
         BigDecimal valorCarro;
