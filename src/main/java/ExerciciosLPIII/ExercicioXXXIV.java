@@ -1,6 +1,5 @@
 package ExerciciosLPIII;
 
-import java.math.BigDecimal;
 import java.util.Scanner;
 
 public class ExercicioXXXIV {
@@ -10,45 +9,22 @@ public class ExercicioXXXIV {
 
         Scanner scanner = new Scanner(System.in);
 
-        String nome;
-        int nivelProfessor = 0;
-        BigDecimal custoHoraProfessorNivelUm = new BigDecimal("12.00");
-        BigDecimal custoHoraProfessorNivelDois = new BigDecimal("17.00");
-        BigDecimal custoHoraProfessorNivelTres = new BigDecimal("25.00");
-        BigDecimal salarioTotal;
-        BigDecimal horasAulas;
+        int idade = 0;
 
-        System.out.println("Bem vindo ao sistema da escola APRENDER!");
+        System.out.print("Insira a idade do nadador: ");
 
-        System.out.print("Insira o nome do professor: ");
-        nome = scanner.next();
-
-        System.out.print("Insira a quantidade de horas de aulas ministradas pelo professor: ");
-        horasAulas = scanner.nextBigDecimal();
-
-        while (nivelProfessor != 1 && nivelProfessor != 2 && nivelProfessor != 3) {
-            System.out.println("Insira o nível do professor (1 - Nível1 / 2 - Nível2 / 3 - Nível3: ");
-            nivelProfessor = scanner.nextInt();
-
-            switch (nivelProfessor) {
-                case 1: {
-                    salarioTotal = horasAulas.multiply(custoHoraProfessorNivelUm);
-                    System.out.println("O(A) professor(a) " + nome + " deverá receber um salário de: R$" + salarioTotal);
-                    break;
-                }
-                case 2: {
-                    salarioTotal = horasAulas.multiply(custoHoraProfessorNivelDois);
-                    System.out.println("O(A) professor(a) " + nome + " deverá receber um salário de: R$" + salarioTotal);
-                    break;
-                }
-                case 3: {
-                    salarioTotal = horasAulas.multiply(custoHoraProfessorNivelTres);
-                    System.out.println("O(A) professor(a) " + nome + " deverá receber um salário de: R$" + salarioTotal);
-                    break;
-                }
-                default:
-                    System.out.println("O nível do professor está incorreto!");
-            }
+        if (idade > 5 && idade < 7) {
+            System.out.println("O nadador está classificado na categoria Infantil A");
+        } else if (idade > 8 && idade < 10) {
+            System.out.println("O nadador está classificado na categoria Infantil B");
+        } else if (idade > 11 && idade < 13) {
+            System.out.println("O nadador está classificado na categoria Juvenil A");
+        } else if (idade > 14 && idade < 17) {
+            System.out.println("O nadador está classificado na categoria Juvenil B");
+        } else if (idade > 18 && idade < 25) {
+            System.out.println("O nadador está classificado na categoria Infantil B");
+        } else {
+            System.out.println("Idade do nadador fora da faixa etária");
         }
     }
 }
