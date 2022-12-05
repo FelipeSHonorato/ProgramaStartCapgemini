@@ -18,7 +18,13 @@ public class ExercicioXVIII {
             idade = scanner.nextInt();
             if (idade >= 18) {
                 System.out.println("Pessoa maior de idade!");
-            } else System.out.println("Pessoa menor de idade!");
+                maioresIdade++;
+            } else {
+                System.out.println("Pessoa menor de idade!");
+                menoresIdade++;
+            }
         }
+        System.out.println("Foram registrados " + maioresIdade + " pessoas maiores de idade");
+        System.out.println("Foram resigtrados " + menoresIdade + " pessoas menores de idade");
     }
 }

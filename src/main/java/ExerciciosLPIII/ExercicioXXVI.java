@@ -1,3 +1,5 @@
+package ExerciciosLPIII;
+
 import java.util.Scanner;
 
 public class ExercicioXXVI {

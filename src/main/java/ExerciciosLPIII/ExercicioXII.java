@@ -17,7 +17,6 @@ public class ExercicioXII {
         BigDecimal custoPercentual;
         BigDecimal impostos = new BigDecimal("45");
         BigDecimal custoImposto;
-        BigDecimal custoTotal;
 
         System.out.print("Informe o custo de fábrica do automóvel: R$");
         custoFabrica = scanner.nextBigDecimal();
