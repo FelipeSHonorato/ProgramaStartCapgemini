@@ -27,7 +27,8 @@ public class Programa {
             switch (opcoes) {
                 case 1: {
                     System.out.print("Digite o nome na qual vc deseja alterar: ");
-                    contaCorrente.alterarNome(scanner.next());
+                    scanner.nextLine();
+                    contaCorrente.alterarNome(scanner.nextLine());
                     break;
                 }
                 case 2: {
